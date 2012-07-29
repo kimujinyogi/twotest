@@ -133,6 +133,13 @@
 		100E509915C2D4B700883F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E509815C2D4B700883F99 /* AppDelegate.m */; };
 		100E509C15C2D4B700883F99 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E509B15C2D4B700883F99 /* HelloWorldLayer.m */; };
 		100E509F15C2D4B700883F99 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E509E15C2D4B700883F99 /* IntroLayer.m */; };
+		100E50BA15C2D9E500883F99 /* TestNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E50B915C2D9E500883F99 /* TestNode.m */; };
+		100E50C215C2DBCC00883F99 /* streak1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50BC15C2DBCC00883F99 /* streak1-hd.png */; };
+		100E50C315C2DBCC00883F99 /* streak1.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50BD15C2DBCC00883F99 /* streak1.png */; };
+		100E50C415C2DBCC00883F99 /* streak2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50BE15C2DBCC00883F99 /* streak2-hd.png */; };
+		100E50C515C2DBCC00883F99 /* streak2.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50BF15C2DBCC00883F99 /* streak2.png */; };
+		100E50C615C2DBCC00883F99 /* streak3-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50C015C2DBCC00883F99 /* streak3-hd.png */; };
+		100E50C715C2DBCC00883F99 /* streak3.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E50C115C2DBCC00883F99 /* streak3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +405,14 @@
 		100E509B15C2D4B700883F99 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		100E509D15C2D4B700883F99 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		100E509E15C2D4B700883F99 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		100E50B815C2D9E500883F99 /* TestNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNode.h; sourceTree = "<group>"; };
+		100E50B915C2D9E500883F99 /* TestNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNode.m; sourceTree = "<group>"; };
+		100E50BC15C2DBCC00883F99 /* streak1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "streak1-hd.png"; sourceTree = "<group>"; };
+		100E50BD15C2DBCC00883F99 /* streak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = streak1.png; sourceTree = "<group>"; };
+		100E50BE15C2DBCC00883F99 /* streak2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "streak2-hd.png"; sourceTree = "<group>"; };
+		100E50BF15C2DBCC00883F99 /* streak2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = streak2.png; sourceTree = "<group>"; };
+		100E50C015C2DBCC00883F99 /* streak3-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "streak3-hd.png"; sourceTree = "<group>"; };
+		100E50C115C2DBCC00883F99 /* streak3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = streak3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +473,8 @@
 			children = (
 				100E509715C2D4B700883F99 /* AppDelegate.h */,
 				100E509815C2D4B700883F99 /* AppDelegate.m */,
+				100E50B815C2D9E500883F99 /* TestNode.h */,
+				100E50B915C2D9E500883F99 /* TestNode.m */,
 				100E509A15C2D4B700883F99 /* HelloWorldLayer.h */,
 				100E509B15C2D4B700883F99 /* HelloWorldLayer.m */,
 				100E509D15C2D4B700883F99 /* IntroLayer.h */,
@@ -472,6 +489,7 @@
 		100E4F2015C2D4B400883F99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				100E50BB15C2DBCC00883F99 /* image */,
 				100E4F2115C2D4B400883F99 /* Default.png */,
 				100E4F2315C2D4B400883F99 /* Default-Landscape~ipad.png */,
 				100E4F2515C2D4B400883F99 /* fps_images.png */,
@@ -832,6 +850,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		100E50BB15C2DBCC00883F99 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				100E50BC15C2DBCC00883F99 /* streak1-hd.png */,
+				100E50BD15C2DBCC00883F99 /* streak1.png */,
+				100E50BE15C2DBCC00883F99 /* streak2-hd.png */,
+				100E50BF15C2DBCC00883F99 /* streak2.png */,
+				100E50C015C2DBCC00883F99 /* streak3-hd.png */,
+				100E50C115C2DBCC00883F99 /* streak3.png */,
+			);
+			name = image;
+			path = Resources/image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +927,12 @@
 				100E4F3615C2D4B400883F99 /* Icon@2x.png in Resources */,
 				100E4F3915C2D4B400883F99 /* iTunesArtwork in Resources */,
 				100E507715C2D4B600883F99 /* ChangeLog in Resources */,
+				100E50C215C2DBCC00883F99 /* streak1-hd.png in Resources */,
+				100E50C315C2DBCC00883F99 /* streak1.png in Resources */,
+				100E50C415C2DBCC00883F99 /* streak2-hd.png in Resources */,
+				100E50C515C2DBCC00883F99 /* streak2.png in Resources */,
+				100E50C615C2DBCC00883F99 /* streak3-hd.png in Resources */,
+				100E50C715C2DBCC00883F99 /* streak3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1047,7 @@
 				100E509915C2D4B700883F99 /* AppDelegate.m in Sources */,
 				100E509C15C2D4B700883F99 /* HelloWorldLayer.m in Sources */,
 				100E509F15C2D4B700883F99 /* IntroLayer.m in Sources */,
+				100E50BA15C2D9E500883F99 /* TestNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

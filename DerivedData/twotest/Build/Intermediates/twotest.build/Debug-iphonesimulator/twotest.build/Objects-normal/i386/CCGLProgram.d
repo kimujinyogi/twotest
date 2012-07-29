@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/CCGLProgram.m \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/CCGLProgram.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/ccMacros.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/ccConfig.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Platforms/CCGL.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Platforms/iOS/CCGLView.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Platforms/iOS/CCESRenderer.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/ccGLStateCache.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Support/CCFileUtils.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Support/../ccTypes.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Support/uthash.h \
+  /Users/kimujinyogi02/Desktop/cutTraining/twotest/twotest/libs/cocos2d/Support/OpenGL_Internal.h \
+  twotest/libs/kazmath/include/kazmath/GL/matrix.h \
+  twotest/libs/kazmath/include/kazmath/GL/../mat4.h \
+  twotest/libs/kazmath/include/kazmath/GL/../utility.h \
+  twotest/libs/kazmath/include/kazmath/GL/../vec3.h \
+  twotest/libs/kazmath/include/kazmath/kazmath.h \
+  twotest/libs/kazmath/include/kazmath/GL/../vec2.h \
+  twotest/libs/kazmath/include/kazmath/GL/../mat3.h \
+  twotest/libs/kazmath/include/kazmath/GL/../quaternion.h \
+  twotest/libs/kazmath/include/kazmath/GL/../plane.h \
+  twotest/libs/kazmath/include/kazmath/GL/../aabb.h \
+  twotest/libs/kazmath/include/kazmath/GL/../ray2.h
